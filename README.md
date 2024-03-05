@@ -1,1 +1,1 @@
-BinarySearchTrees are recursive structures that organize key/value pairs. Compared to HashTables, they're always sorted, so collisions never occur and aren't a worry.
+BinarySearchTrees are recursive structures that organize key/value pairs in the form of (key, value) and can be used with things like (Integer, String). Compared to HashTables, they're always sorted, so collisions never occur and aren't a worry.
