@@ -33,8 +33,7 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> {
     }
 
     //recursive put
-    //sets left/right or creates a new node appropriately, returns the
-    //modified node n
+    //sets left/right or creates a new node appropriately, returns the modified node n
     private Node<Key, Value> put(Node<Key, Value> n, Key key, Value val) {
         if (n == null) {
             n = new Node<>(key, val, 5);
